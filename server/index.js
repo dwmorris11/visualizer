@@ -9,6 +9,6 @@ const publicDir = path.resolve(__dirname, '..', 'public');
 app.use(morgan('dev'));
 app.use('/', express.static(publicDir));
 
-app.listen(port, () => {
+app.listen(PORT, () => {
   console.log(`Server listening on port ${PORT}`);
 });
