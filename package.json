@@ -1,0 +1,27 @@
+{
+  "name": "visualizer",
+  "version": "1.0.0",
+  "description": "Visualizer for Algorithm Practice",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dwmorris11/visualizer.git"
+  },
+  "author": "Dustin Morris",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/dwmorris11/visualizer/issues"
+  },
+  "homepage": "https://github.com/dwmorris11/visualizer#readme",
+  "dependencies": {
+    "d3": "^6.2.0",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {
+    "webpack": "^4.44.2",
+    "webpack-cli": "^3.3.12"
+  }
+}
